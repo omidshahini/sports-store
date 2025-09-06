@@ -5,6 +5,11 @@
 
 @import "tailwindcss";
 
-@theme {
-    --font-oxanium :Oxanium, "sans-serif"
+@layer components {
+    .header-ul {
+        @apply w-xl h-10 p-3 flex flex-row justify-between items-center gap-20 text-zinc-600 [&>li]:hover:cursor-pointer [&>li]:hover:transition [&>li]:hover:text-white
+    }
+    .login {
+        @apply text-white text-xl p-1 border-2 border-amber-100 px-1.5 border-r-lime-200 text-center rounded-se-2xl rounded-es-2xl border-l-amber-800 [&>a]:hover:text-gray-500 [&>a]:transition
+    }
 }
