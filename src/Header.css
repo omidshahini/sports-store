@@ -1,1 +1,10 @@
+@font-face {
+    font-family: Oxanium;
+    src: url("../src/assets/fonts/Oxanium-Regular.ttf");
+}
+
 @import "tailwindcss";
+
+@theme {
+    --font-oxanium :Oxanium, "sans-serif"
+}

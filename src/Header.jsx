@@ -1,11 +1,11 @@
 
 import './Header.css'
 
-function Header() {
+const Header = () => {
 
   return (
     <>
-      <section>
+      <section className='font-oxanium'>
         <header className='px-12 py-5 w-full h-16'>
           <navbar className="flex flex-row justify-between items-center ">
             <a href="#">
